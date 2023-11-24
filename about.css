@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.about-img {
+    max-width: 100%;
+    height: auto;
+}

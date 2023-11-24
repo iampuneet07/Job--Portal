@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job looker Login</title>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="main.css">
+  <script>
+function login()
+{
+     window.alert("Successfully Logged in.")
+}
+  </script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="job lists.html">Job Seekers</a></li>
+                <li><a href="#">Employers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    <div class="login-form">
+            <img src="login.jpg" height="80px" style="border-radius: 50%; margin-bottom: 15px;">
+        <form action="/login" method="post">
+            <h1 class="text-center">Job Seeker Login</h1>
+            <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="required">
+            </div>
+        </form>
+            <p><button type="submit" onclick="login()" class="loginbtn">Login</button></p>
+    </div>
+    <div class="footer">
+            &copy; 2023 Jobs Looker. All Rights Reserved.
+            <div class="footersub">
+                <h5 style="color: white;">Quick Links</h5>
+                <a class="footerinfo" href="about.html">About Us </a>
+                <a class="footerinfo" href="contact.html">Contact Us </a>
+                <a class="footerinfo" href="#">Privacy Policy </a>
+                <a class="footerinfo" href="#">Terms & Conditions </a>
+            </div>
+        </div>
+</body>
+</html>

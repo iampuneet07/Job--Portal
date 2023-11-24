@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="main.css">
+
+   <script>
+function apply()
+{
+          var reval= confirm("Do you want to Apply?");
+      if (reval==true) {
+          document.write("You have successfully applied!");
+          return true;
+      }
+      else {
+          document.write("Not Applied!");
+          return false;
+      }
+}
+</script>
+</head>
+<body>
+    <div class="sitename">
+        <a style="text-shadow: 0 0 8px orange;">Job <span>Looker</span>..</a>
+           <table align="right">
+              <tr> 
+                <th>Email Us</th>
+                <th>Call Us</th>
+              </tr>
+              <tr>
+                <td>cse@project.com</td>
+                <td>+91XXXXXXXXXX</td>
+              </tr>
+            </table>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="job lists.html">Job Seekers</a></li>
+                <li><a href="#">Employers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Jobs">
+            <form action="job lists.html"><button type="submit">Search</button></form>
+        </div>
+        <div class="bgimage">
+            <div class="hometext">
+               <h1 style="font-size: 60px; ">Find The Perfect Job That You Deserve</h1>
+               <p>JobLooker has helped millions find their right job. You too can find the one that's best for you. Just keep looking through our website, to open new doors to your career.</p>
+            </div>
+        </div>
+        <div class="categories">
+            <ul>
+                <li><a href="#">Software Developer</a></li>
+                <li><a href="#">Project Manager</a></li>
+                <li><a href="#">Business Analyst</a></li>
+                <li><a href="#">Database Engineer</a></li>
+                <li><a href="#">Web Designer</a></li>
+            </ul>
+        </div>
+        <div class="jobs">
+            <div class="job-card">
+                <h2>Software Developer</h2>
+                <p class="job-company">ABC Company</p>
+                <p class="job-location"><img src="location.png" height="15px" width="15px"> Delhi, India</p>
+                <p class="job-salary"><img src="salary.png" height="20px" width="20px"> Rs.50k-Rs.1 lakh per month</p>
+                <p><button type="submit" onclick="apply()">APPLY</button></p>
+            </div>
+            <div class="job-card">
+                <h2>Project Manager</h2>
+                <p class="job-company">XYZ Company</p>
+                <p class="job-location"><img src="location.png" height="15px" width="15px"> Mumbai, India</p>
+                <p class="job-salary"><img src="salary.png" height="20px" width="20px"> Rs.50k-Rs.1 lakh per month</p>
+                <p><button type="submit" onclick="apply()">APPLY</button></p>
+            </div>
+            <div class="job-card">
+                <h2>Business Analyst</h2>
+                <p class="job-company">PQR Company</p>
+                <p class="job-location"><img src="location.png" height="15px" width="15px"> Kolkata, India</p>
+                <p class="job-salary"><img src="salary.png" height="20px" width="20px"> Rs.50k-Rs.1 lakh per month</p>
+                <p><button type="submit" onclick="apply()">APPLY</button></p>
+            </div>
+            <div class="job-card">
+                <h2>Database Engineer</h2>
+                <p class="job-company">LMN Company</p>
+                <p class="job-location"><img src="location.png" height="15px" width="15px"> Chennai, India</p>
+                <p class="job-salary"><img src="salary.png" height="20px" width="20px"> Rs.50k-Rs.1 lakh per month</p>
+                <p><button type="submit" onclick="apply()">APPLY</button></p>
+            </div>
+            <div class="job-card">
+                <h2>Web Designer</h2>
+                <p class="job-company">OPQ Company</p>
+                <p class="job-location"><img src="location.png" height="15px" width="15px"> Bangalore, India</p>
+                <p class="job-salary"><img src="salary.png" height="20px" width="20px"> Rs.50k-Rs.1 lakh per month</p>
+                <p><button type="submit" onclick="apply()">APPLY</button></p>
+            </div>
+            <div class="job-card">
+                <h2>Marketing Manager</h2>
+                <p class="job-company">UVW Company</p>
+                <p class="job-location"><img src="location.png" height="15px" width="15px"> Mumbai, India</p>
+                <p class="job-salary"><img src="salary.png" height="20px" width="20px"> Rs.50k-Rs.1 lakh per month</p>
+                <p><button type="submit" onclick="apply()">APPLY</button></p>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; 2023 Jobs Looker. All Rights Reserved.
+            <div class="footersub">
+                <h5 style="color: white;">Quick Links</h5>
+                <a class="footerinfo" href="about.html">About Us </a>
+                <a class="footerinfo" href="contact.html">Contact Us </a>
+                <a class="footerinfo" href="#">Privacy Policy </a>
+                <a class="footerinfo" href="#">Terms & Conditions </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

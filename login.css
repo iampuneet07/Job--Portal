@@ -1,0 +1,36 @@
+/* Define the default font family */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+        .loginbtn {
+            background-color: #4CAF50;
+            border-radius: 4px;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px 20px;
+        }
+        
+        .form-group {
+            padding-bottom: 15px;
+        }
+            
+        .login-form {
+            width: 450px;
+            margin: 50px auto;
+            text-align: center;
+            background-color: #e1e1e1;
+            padding: 50px 30px 10px 15px;
+            border-radius: 4px;
+        }
+        .login-form form {
+            text-align: center;
+        }
+        .login-form h1 {
+            margin: 0 0 50px 0;
+        }
+        .form-control {
+            min-height: 38px;
+            border-radius: 5px;
+            width: 100%;
+            padding-left: 10px;
+        }

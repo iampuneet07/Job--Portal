@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="about.css">
+
+    <script>
+    function submit()
+{
+          var reval= confirm("The information you entered is correct?");
+      if (reval==true) {
+          document.write("We will contact you shortly!");
+          return true;
+      }
+      else {
+          return false;
+      }
+}
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="job lists.html">Job Seekers</a></li>
+                <li><a href="#">Employers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header">
+            <h1 style="text-align: center;">Contact Us</h1>
+        </div>
+    <div class="container1">
+        <div class="contact-info">
+            <div>
+                <p><strong>Phone:</strong> +91XXXXXXXXXX</p>
+                <p><strong>Email:</strong> cse@project.com</p>
+            </div>
+            <div>
+                <p><strong>Address:</strong> LPU, Phagwara, Punjab, India</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+             </form>
+                <p><button type="submit" class="submitbtn" onclick="submit()">Submit</button></p>
+        </div>
+    </div>
+        <div class="footer">
+            &copy; 2023 Jobs Looker. All Rights Reserved.
+            <div class="footersub">
+                <h5 style="color: white;">Quick Links</h5>
+                <a class="footerinfo" href="about.html">About Us </a>
+                <a class="footerinfo" href="contact.html">Contact Us </a>
+                <a class="footerinfo" href="#">Privacy Policy </a>
+                <a class="footerinfo" href="#">Terms & Conditions </a>
+            </div>
+    </div>
+</body>
+</html>
